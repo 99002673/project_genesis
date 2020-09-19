@@ -1,5 +1,3 @@
-#include<stdio.h>
-#include<math.h>
 #include<phy_equation.h>
 int main()
 { int input;
