@@ -1,3 +1,4 @@
+#include<phy_equation.h>
 int ohms_law(){ 
   char choice;
   int V,I,R;
