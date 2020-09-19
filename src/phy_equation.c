@@ -231,3 +231,33 @@ int pressure(){
 	
 	return 0;	
 }
+int frequency(){
+	char choice;
+   int f,v,w;
+  
+	printf("What you want to find Frequency(F) or Velocity(V) or Wavelength(W)\n");
+	scanf(" %c",&choice);
+	if(choice=='F')
+	{
+		printf("Enter values of V and W\n");
+		scanf("%d %d",&v,&w);
+		printf("Frequency= %d",v/w);
+	}
+	if(choice=='v')
+	{
+		printf("Enter values of F and W\n");
+		scanf("%d %d",&f,&w);
+		printf("Velocity= %d",f*w);
+	}
+	if(choice=='W')
+	{
+		printf("Enter values of V and f\n");
+		scanf("%d %d",&v,&f);
+		printf("Wave length= %d",v/f);
+	}
+	else
+		printf("Invalid input Please check again..... ");
+	
+	return 0;	
+
+}
