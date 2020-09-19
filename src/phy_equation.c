@@ -242,7 +242,7 @@ int frequency(){
 	{
 		printf("Enter values of V and W\n");
 		scanf("%d %d",&v,&w);
-		printf("Frequency= %d",v/w);
+		printf("Frequency = %d",v/w);
 	}
 	if(choice=='v')
 	{
