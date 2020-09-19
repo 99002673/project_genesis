@@ -9,3 +9,4 @@ int potential_energy();
 int power();
 int density();		
 int pressure();
+int frequency();
