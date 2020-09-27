@@ -1,4 +1,5 @@
-#include<phy_equation.h>
+#include <stdio.h>
+#include "phy_equation.h"
 int main()
 { int input;
 	printf("PRESS\n 1. To find Velocity V=IR\n 2. To find Speed S=d/t\n 3. To find Kenitic Energy E=1/2*m*v*v\n");
