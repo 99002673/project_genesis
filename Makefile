@@ -1,9 +1,14 @@
+# Name of the project
+
+# Output directory
+BUILD = build
+
 SRC = src/phy_equation.c\
 main.c
 
 INC = -Iinc
 
-PROJECT_NAME = phy_equation.exe
+PROJECT_NAME = phy_equation
 
 $(PROJECT_NAME): $(SRC)
 	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
