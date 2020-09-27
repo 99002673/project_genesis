@@ -7,10 +7,10 @@
 
 /* Prototypes for all the test functions */
 void test_ohms_law(void);
-void test_velocity_dis_time(void);
-void test_power(void);
+/*void test_velocity_dis_time(void);
+*void test_power(void);
 void test_pressure(void);
-
+*/
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -23,10 +23,10 @@ int main() {
   
   /* Add your test functions in this format for testing*/
   CU_add_test(suite, "ohms_law", test_ohms_law);
-  CU_add_test(suite, "velocity_dis_time", test_velocity_dis_time);
-  CU_add_test(suite, "power", test_power);
-  CU_add_test(suite, "pressure", test_pressure);
-
+  /*CU_add_test(suite, "velocity_dis_time", test_velocity_dis_time);
+  *CU_add_test(suite, "power", test_power);
+  *CU_add_test(suite, "pressure", test_pressure);
+*/
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
