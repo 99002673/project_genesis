@@ -3,7 +3,7 @@
 
 /* Modify these two lines according to the project */
 #include <phy_equation.h>
-#define PROJECT_NAME    "Physics equation"
+#define PROJECT_NAME "Physics equation"
 
 /* Prototypes for all the test functions */
 void test_ohms_law(void);
