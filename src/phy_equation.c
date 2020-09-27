@@ -80,7 +80,7 @@ char choice;
 	{
 		printf("Enter values of E and M\n");
 		scanf("%d %d",&e,&m);
-		v=sqrt((2*e)/m);
+		v=((2*e)/m);
 		printf("Velocity= %d",v);
 	}
 		else
