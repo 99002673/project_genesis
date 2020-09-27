@@ -42,7 +42,7 @@ int main() {
 }
 
 /* Write all the test functions */ 
-void test_add(void) {
+void test_ohms_law(void) {
   CU_ASSERT(0 == ohms_law());
   
 }
