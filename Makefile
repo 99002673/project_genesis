@@ -1,21 +1,14 @@
+  
 # Name of the project
+PROJECT_NAME = PHY_EQUATION
 
 # Output directory
 BUILD = build
 
-SRC = src/phy_equation.c\
-main.c
+# All source code files
+SRC = main.c\
+src/phy_equation.c\
 
-INC = -Iinc
-
-PROJECT_NAME = phy_equation
-
-$(PROJECT_NAME): $(SRC)
-	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
-
-run:$(PROJECT_NAME)
-	./${PROJECT_NAME}
-	
 # All test source files
 TEST_SRC = src/phy_equation.c\
 test/test.c
@@ -26,7 +19,6 @@ TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 INC	= -Iinc
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
-
 
 
 # Default target built
@@ -41,6 +33,8 @@ all: $(SRC) $(BUILD)
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT).out
+
+
 
 # Build and run the unit tests
 test:$(BUILD)
